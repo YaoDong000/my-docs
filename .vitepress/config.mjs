@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/https://github.com/YaoDong000/my-docs.git/',
+  base: '/my-docs/',
   title: "Media-Wendy",
   description: "A VitePress Site",
   themeConfig: {
